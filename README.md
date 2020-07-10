@@ -6,6 +6,8 @@ A Julia adaptation of CFDPython Copyright (c) Barba group - https://github.com/b
 
 [![DOI](https://jose.theoj.org/papers/10.21105/jose.00021/status.svg)](https://doi.org/10.21105/jose.00021)
 
+## THIS IS CURRENTLY A WORK IN PROGRESS
+
 **CFD Julia** adapts **CFD Python**, a.k.a. the **12 steps to Navier-Stokes** to the Julia programming language. CFD Python is a practical module for learning the foundations of Computational Fluid Dynamics (CFD) by coding solutions to the basic partial differential equations that describe the physics of fluid flow.
 The module was part of a course taught by [Prof. Lorena Barba](http://lorenabarba.com) between 2009 and 2013 in the Mechanical Engineering department at Boston University (Prof. Barba since moved to the George Washington University).
 
@@ -28,8 +30,8 @@ Lessons
 
 Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D). Steps 11–12 solve the Navier-Stokes equation in 2D. Three "bonus" notebooks cover the CFL condition for numerical stability, array operations with NumPy, and defining functions in Python.
 
-* [Quick Python Intro]()
-—For Python novices, this lesson introduces the numerical libraries (NumPy and Matplotlib), Python variables, use of whitespace, and slicing arrays.
+* [~~Quick Julia Intro~~]()
+—For Julia novices, this lesson introduces Julia and covers the fundamentals required in this mini-course.
 * [Step 1]()
 —Linear convection with a step-function initial condition (IC) and appropriate boundary conditions (BCs).
 * [Step 2]()
@@ -40,24 +42,24 @@ Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D
 —With the same IC/BCs, _diffusion_ only.
 * [Step 4]()
 —Burgers’ equation, with a saw-tooth IC and periodic BCs (with an introduction to Sympy).
-* [Array Operations with NumPy]()
-* [Step 5]()
-—Linear convection in 2D with a square-function IC and appropriate BCs.
-* [Step 6]()
-—With the same IC/BCs, _nonlinear_ convection in 2D.
-* [Step 7]()
-—With the same IC/BCs, _diffusion_ in 2D.
-* [Step 8]()
-—Burgers’ equation in 2D
+* [~~Array Operations with NumPy~~]()
+* [~~Step 5~~]()
+~~—Linear convection in 2D with a square-function IC and appropriate BCs.~~
+* [~~Step 6~~]()
+~~—With the same IC/BCs, _nonlinear_ convection in 2D.~~
+* [~~Step 7~~]()
+~~—With the same IC/BCs, _diffusion_ in 2D.~~
+* [~~Step 8~~]()
+~~—Burgers’ equation in 2D~~
 * [Defining Functions in Python]()
-* [Step 9]()
-—Laplace equation with zero IC and both Neumann and Dirichlet BCs.
-* [Step 10]()
-—Poisson equation in 2D.
-* [Step 11]()
-—Solves the Navier-Stokes equation for 2D cavity flow.
-* [Step 12]()
-—Solves the Navier-Stokes equation for 2D channel flow.
+* [~~Step 9~~]()
+~~—Laplace equation with zero IC and both Neumann and Dirichlet BCs.~~
+* [~~Step 10~~]()
+~~—Poisson equation in 2D.~~
+* [~~Step 11~~]()
+~~—Solves the Navier-Stokes equation for 2D cavity flow.~~
+* [~~Step 12~~]()
+~~—Solves the Navier-Stokes equation for 2D channel flow.~~
 
 
 ## Dependencies
@@ -86,7 +88,7 @@ julia>]
 (@v1.4) pkg>
 (@v1.4) pkg> activate .
 (CFDJulia) pkg> instantiate
-CTRL-C
+(CFDJulia) pkg> [backspace]
 julia>
 ```
 
